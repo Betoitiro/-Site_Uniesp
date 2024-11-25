@@ -3,6 +3,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Navbar from "./components/NavBar"
 import BannerAd from "./components/BannerAd"
 import Inicial from "./pages/Inicial"
+import Faculdade from "./pages/Faculdade"
+import DpoLgpd from "./pages/DpoLgpd "
+import Noticias from "./pages/Noticias"
 const App = () => {
   return (
     <BrowserRouter>
@@ -24,6 +27,9 @@ const App = () => {
         <Box mt={4}>
           <Routes>
             <Route path="/" element={<Inicial/>}/>
+            <Route path="/sobre-faculdade" element={<Faculdade/>}/>
+            <Route path="/dpo-lgpd" element={<DpoLgpd/>}/>
+            <Route path="/noticias" element={<Noticias/>}/>
           </Routes>
         </Box>
       </Container>

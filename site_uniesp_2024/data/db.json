@@ -1,0 +1,19 @@
+{
+    "noticias": [
+        {
+            "id": 1,
+            "title": "Jovens revoltados com sumiço dos certificados na plataforma",
+            "description": "Usuários reclamam de dificuldades para acessar os certificados emitidos pela plataforma, gerando insatisfação e protestos nas redes sociais."
+        },
+        {
+            "id": 2,
+            "title": "Nova funcionalidade promete agilizar processos acadêmicos",
+            "description": "Plataforma anuncia a implementação de uma ferramenta inovadora para facilitar a entrega e gestão de documentos escolares."
+        },
+        {
+            "id": 3,
+            "title": "Estudantes elogiam melhorias na interface do sistema",
+            "description": "Após atualização recente, usuários destacam a navegação mais intuitiva e eficiente como um dos pontos positivos do novo design."
+        }
+    ]
+}

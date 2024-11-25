@@ -22,8 +22,8 @@ const Navbar = () => {
             <img src="uniesp.jpg" alt="Uniesp Logo" width={80} height={80} />
           </IconButton>
           <Box sx={{ display: { xs: 'none', md: 'flex' }, ml: 15 }}>
-            <Button color="inherit" component={Link} to="/a-faculdade">
-              A Faculdade
+            <Button color="inherit" component={Link} to="/sobre-faculdade">
+              Sobre-Faculdade
             </Button>
             <Button color="inherit" component={Link} to="/dpo-lgpd">
               DPO LGPD
