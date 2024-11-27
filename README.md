@@ -75,6 +75,15 @@ Desenvolvimento
     <p>
         Nas pages, como o proprio nome diz, é onde fica localizada as nossas paginas de renderização do site. Nelas ficou separado as pages "publicas" e "admin" que seriam "privadas",esse modo de separação de pagina fica responsavel por organizar as estruturas do projeto. Dentr elas estão: <br/>
         DpoLgpd: responsavel por informar oq é DPO e LGPD; <br/>
-        Faculdade: responsavel
+        Faculdade: responsavel por passar informações gerais da faculdade, compos entre outros; <br/>
+        Inicial: como o proprio nome diz, responsavel por ser a pagina inicial do site; <br/>
+        Noticias: Pagina responsavel por exibir as noticias da uniesp, a mesma naturalmente esta consumindo o banco de dados fack;
+        VozualizarNoticias: Pagina responsavel por trazer informação de uma determinada noticia, funcionando da mesma maneira de um findById, buscando a noticia pelo id.
+    </p>
+    <h3>
+        App.js: <br/>
+    </h3>
+    <p>
+        File responsavel por renderizar as rotas, nele usamos algumas funcionalidades do react-router-dom, como BrowserRouter, Route, Routes, que são responsaveis por gerenciar a nevegação do site, tambem é nele que colocamos o NavBar e BannerAd para ser renderizado em toda a aplicação
     </p>
 </p>
