@@ -2,8 +2,8 @@
 
 <h2>Introduçãp:</h2>
 <p>
-Projeto responsavel pela cadeira de front-end Avançado, onde foi realoizado um site da instituição de insino uniesp.
-Nele Utilizamnos uma estrutura basica de pasta/arquivos para os components, pages e data (onde simulamos o backend fake).
+Documentação referente ao projeto SITE_UNIESP_2024_2 , onde sera aplicado a criação de um site usando o framework react. Nesse realatorio, possuira a seguinte estrutura:
+Começaremos com o desenvolvimento, abordando a maneira que foi estruturado, em seguida vai pras dependencias  que foram utilizadas na aplicação, dai vamos para a explicação dos componets, e pages. Dessa forma, vamos finalizar com a App.js que é responsavel pelas rotas e estrutura de renderização.
 </p>
 
 <h2>
@@ -40,13 +40,11 @@ Desenvolvimento
     <strong>axios:</strong>
      Cliente HTTP baseado em Promises para realizar requisições a APIs. Simplifica operações como GET, POST, PUT e DELETE, além de manipular respostas de forma eficiente;<br/>
     <strong>json-server:</strong>
-    Ferramenta que simula um backend RESTful. Ideal para prototipagem, permite criar endpoints rápidos utilizando um arquivo JSON como banco de dados fake;<br/>;
+    Ferramenta que simula um backend RESTful. Ideal para prototipagem, permite criar endpoints rápidos utilizando um arquivo JSON como banco de dados fake;<br/>
     <strong>react-dom:</strong> 
     Biblioteca responsável por manipular a renderização do DOM no React, conectando os componentes React à árvore de elementos HTML da aplicação;<br/>
     <strong>react-router-dom</strong>:
     Biblioteca de roteamento para React. Facilita a navegação entre páginas, gerenciamento de URLs dinâmicas e criação de rotas protegidas ou específicas.<br/>
-
-
     </p>
     </br>
     Neste projeto utilizamos as <strong>pages</strong> para colocar as devidas paginas da aplicação e os <strong>componets</strong> para colocarmos fragmentos que seriam utilziados em mais de uma pagina, como foi o caso do navbar.
@@ -75,6 +73,8 @@ Desenvolvimento
         Pages:
     </h3>
     <p>
-        Nas pages, como o proprio nome diz, é onde fica localizada as nossas paginas de renderização do site. Nelas ficou separado as pages "publicas" e "admin" que seriam "privadas",esse modo de separação de pagina fica responsavel por organizar as estruturas do projeto.
+        Nas pages, como o proprio nome diz, é onde fica localizada as nossas paginas de renderização do site. Nelas ficou separado as pages "publicas" e "admin" que seriam "privadas",esse modo de separação de pagina fica responsavel por organizar as estruturas do projeto. Dentr elas estão: <br/>
+        DpoLgpd: responsavel por informar oq é DPO e LGPD; <br/>
+        Faculdade: responsavel
     </p>
 </p>
