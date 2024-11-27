@@ -10,9 +10,9 @@ Nele Utilizamnos uma estrutura basica de pasta/arquivos para os components, page
 Desenvolvimento
 </h2>
 <p>
-        <h5>
-            Estrutura:
-        </h5> 
+    <h4>
+        Estrutura:
+    </h4> 
     <p>
         A estrutura do projeto, ficou da seguinte maneira: <br/>
         Na raiz do projeto possuimos 3 arquivos, data, public e src
@@ -24,7 +24,30 @@ Desenvolvimento
         pager: responsavel por conter as paginas da aplicação e estrutura de admin e user. <br/>
         <h5>Por fora desses pacotes possui os files de estilização App.css e index.css(que são responsaveis pelo css global da aplicação) e 0o App.js que é onde fica localizada as rotas e tabem é responsvel por renderizar as paginas contendo suas devidas rotas.</h5>
     </p>
-    <br/><br/>
+    <br/>
+    <h4>
+        Dependecias: 
+    </h4>
+    <p>
+    <strong>@emotion/react:</strong>
+    Biblioteca para manipulação de estilos em componentes React utilizando CSS-in-JS. Permite aplicar estilos dinâmicos com base em propriedades ou estado;<br/>
+    <strong>@emotion/styled:</strong>
+    Complementa o @emotion/react, permitindo criar componentes estilizados de forma mais declarativa, utilizando templates literais de JavaScrip;<br/>
+    <strong>@mui/icons-material:</strong>
+    Coleção de ícones prontos para uso, desenvolvida pela equipe do Material-UI (MUI). Ideal para incorporar ícones consistentes com o design Material Design;<br/>
+    <strong>@mui/material:</strong>
+    Biblioteca de componentes de UI prontos para uso baseada no Material Design. Inclui botões, tabelas, diálogos e mais, com suporte para personalização;<br/>
+    <strong>axios:</strong>
+     Cliente HTTP baseado em Promises para realizar requisições a APIs. Simplifica operações como GET, POST, PUT e DELETE, além de manipular respostas de forma eficiente;<br/>
+    <strong>json-server:</strong>
+    Ferramenta que simula um backend RESTful. Ideal para prototipagem, permite criar endpoints rápidos utilizando um arquivo JSON como banco de dados fake;<br/>;
+    <strong>react-dom:</strong> 
+    Biblioteca responsável por manipular a renderização do DOM no React, conectando os componentes React à árvore de elementos HTML da aplicação;<br/>
+    <strong>react-router-dom</strong>:
+    Biblioteca de roteamento para React. Facilita a navegação entre páginas, gerenciamento de URLs dinâmicas e criação de rotas protegidas ou específicas.<br/>
+
+
+    </p>
     </br>
     Neste projeto utilizamos as <strong>pages</strong> para colocar as devidas paginas da aplicação e os <strong>componets</strong> para colocarmos fragmentos que seriam utilziados em mais de uma pagina, como foi o caso do navbar.
     <br/>
