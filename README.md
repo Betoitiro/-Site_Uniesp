@@ -1,4 +1,4 @@
-# -Site_Uniesp ![Uniesp](uniesp.jpg)
+# -Site_Uniesp
 
 <h2>Introduçãp:</h2>
 <p>
