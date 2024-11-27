@@ -25,7 +25,7 @@ const App = () => {
         sx={{backgroundColor: '#fff', 
         borderRadius:'8px', 
         boxShadow:1}}>
-          <Navbar/>
+        <Navbar/>
         </Box>
         <BannerAd/>
         <Box mt={4}>
