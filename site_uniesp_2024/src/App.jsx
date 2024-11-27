@@ -10,6 +10,7 @@ import VisualizaNoticia from "./pages/VisualizarNoticias"
 import AdminNoticias from "./pages/Admin/AdminNoticias"
 import EditarNoticia from "./pages/Admin/EditarNoticia"
 import CadastroNoticia from "./pages/Admin/CadastroNoticia"
+import Login from "./pages/Admin/Login"
 const App = () => {
   return (
     <BrowserRouter>
@@ -31,6 +32,7 @@ const App = () => {
         <Box mt={4}>
           <Routes>
             <Route path="/" element={<Inicial/>}/>
+            <Route path="/login-admin" element={<Login/>}/>
             <Route path="/sobre-faculdade" element={<Faculdade/>}/>
             <Route path="/dpo-lgpd" element={<DpoLgpd/>}/>
             <Route path="/noticias" element={<Noticias/>}/>

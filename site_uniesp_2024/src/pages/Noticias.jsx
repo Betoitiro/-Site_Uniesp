@@ -69,7 +69,7 @@ import axios from 'axios';
 
 const Noticias = () => {
     const [noticias, setNoticias] = useState([]);
-    const url = "http://localhost:8080/api/v1/news/all"; // Ajuste o endpoint
+    const url = "http://localhost:8080/api/v1/news/all"; 
 
     useEffect(() => {
         const fetchNoticias = async () => {

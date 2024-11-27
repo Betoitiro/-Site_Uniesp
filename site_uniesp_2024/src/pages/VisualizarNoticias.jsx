@@ -38,7 +38,7 @@ const VisualizaNoticia = () => {
     const { id } = useParams();
     const [noticia, setNoticia] = useState(null);
     const [error, setError] = useState(null);
-    const url = `http://localhost:8080/api/v1/news/${id}`; // Ajuste a URL
+    const url = `http://localhost:8080/api/v1/news/${id}`;
 
     useEffect(() => {
         const fetchNoticia = async () => {
