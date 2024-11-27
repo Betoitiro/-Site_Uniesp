@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom'
 import axios from 'axios'
 import { Button, List, ListItem, ListItemText, Typography, Box, Paper } from '@mui/material'
 
-const url = "http://localhost:3000/noticias"
-
+const url = "http://localhost:8080/api/v1/news/all";
 const AdminNoticias = () => {
   const [noticias, setNoticias] = useState([])
 
